@@ -13,6 +13,7 @@
 %% OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 -module(cowboy_loop).
+-vsn("2.10.1").
 -behaviour(cowboy_sub_protocol).
 
 -export([upgrade/4]).

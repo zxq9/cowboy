@@ -13,6 +13,7 @@
 %% OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 -module(cowboy_http).
+-vsn("2.10.1").
 
 -export([init/6]).
 
@@ -151,8 +152,8 @@
 	children = cowboy_children:init() :: cowboy_children:children()
 }).
 
--include_lib("cowlib/include/cow_inline.hrl").
--include_lib("cowlib/include/cow_parse.hrl").
+-include("$cowlib_include/cow_inline.hrl").
+-include("$cowlib_include/cow_parse.hrl").
 
 -spec init(pid(), ranch:ref(), inet:socket(), module(),
 	ranch_proxy_header:proxy_info(), cowboy:opts()) -> ok.

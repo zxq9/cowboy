@@ -13,6 +13,7 @@
 %% OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 -module(cowboy_children).
+-vsn("2.10.1").
 
 -export([init/0]).
 -export([up/4]).

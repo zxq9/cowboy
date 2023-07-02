@@ -17,6 +17,7 @@
 %% local and directly read from the ETS cache table, providing
 %% fast time and date computations.
 -module(cowboy_clock).
+-vsn("2.10.1").
 -behaviour(gen_server).
 
 %% API.

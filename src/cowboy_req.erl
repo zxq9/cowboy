@@ -14,6 +14,7 @@
 %% OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 -module(cowboy_req).
+-vsn("2.10.1").
 
 %% Request.
 -export([method/1]).

@@ -13,6 +13,7 @@
 %% OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 -module(cowboy_tracer_h).
+-vsn("2.10.1").
 -behavior(cowboy_stream).
 
 -export([init/3]).

@@ -1,0 +1,17 @@
+{a_email,"essen@ninenines.eu"}.
+{author,"Loic Hoguin"}.
+{c_email,"essen@ninenines.eu"}.
+{copyright,"Loic Hoguin"}.
+{deps,[{"otpr","ranch",{2,1,0}},{"otpr","cowlib",{2,12,1}}]}.
+{desc,"Cowboy is a small, fast and modern HTTP server for Erlang/OTP."}.
+{file_exts,[]}.
+{key_name,none}.
+{license,skip}.
+{modules,[]}.
+{name,"Cowboy"}.
+{package_id,{"otpr","cowboy",{2,10,1}}}.
+{prefix,"cowboy"}.
+{repo_url,"https://github.com/zxq9/cowboy"}.
+{tags,["http2","web","http","server","websocket","spdy"]}.
+{type,app}.
+{ws_url,"https://ninenines.eu/docs/en/cowboy/2.6/guide"}.

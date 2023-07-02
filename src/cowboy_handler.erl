@@ -18,6 +18,7 @@
 %% environment values. The result of this execution is added to the
 %% environment under the <em>result</em> value.
 -module(cowboy_handler).
+-vsn("2.10.1").
 -behaviour(cowboy_middleware).
 
 -export([execute/2]).

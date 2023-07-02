@@ -13,6 +13,7 @@
 %% OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 -module(cowboy).
+-vsn("2.10.1").
 
 -export([start_clear/3]).
 -export([start_tls/3]).

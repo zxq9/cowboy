@@ -13,6 +13,7 @@
 %% OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 -module(cowboy_clear).
+-vsn("2.10.1").
 -behavior(ranch_protocol).
 
 -export([start_link/3]).

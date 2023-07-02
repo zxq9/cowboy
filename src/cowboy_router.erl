@@ -23,6 +23,7 @@
 %% If the route cannot be found, processing stops with either
 %% a 400 or a 404 reply.
 -module(cowboy_router).
+-vsn("2.10.1").
 -behaviour(cowboy_middleware).
 
 -export([compile/1]).

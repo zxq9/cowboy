@@ -13,6 +13,7 @@
 %% OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 -module(cowboy_app).
+-vsn("2.10.1").
 -behaviour(application).
 
 -export([start/2]).

@@ -13,6 +13,7 @@
 %% OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 -module(cowboy_constraints).
+-vsn("2.10.1").
 
 -export([validate/2]).
 -export([reverse/2]).

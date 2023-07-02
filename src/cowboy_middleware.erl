@@ -13,6 +13,7 @@
 %% OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 -module(cowboy_middleware).
+-vsn("2.10.1").
 
 -type env() :: #{atom() => any()}.
 -export_type([env/0]).

@@ -13,6 +13,7 @@
 %% OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 -module(cowboy_bstr).
+-vsn("2.10.1").
 
 %% Binary strings.
 -export([capitalize_token/1]).

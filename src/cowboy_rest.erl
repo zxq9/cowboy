@@ -15,6 +15,7 @@
 %% Originally based on the Webmachine Diagram from Alan Dean and
 %% Justin Sheehy.
 -module(cowboy_rest).
+-vsn("2.10.1").
 -behaviour(cowboy_sub_protocol).
 
 -export([upgrade/4]).

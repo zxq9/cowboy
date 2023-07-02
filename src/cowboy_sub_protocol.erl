@@ -14,6 +14,7 @@
 %% OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 -module(cowboy_sub_protocol).
+-vsn("2.10.1").
 
 -callback upgrade(Req, Env, module(), any())
 	-> {ok, Req, Env} | {suspend, module(), atom(), [any()]} | {stop, Req}

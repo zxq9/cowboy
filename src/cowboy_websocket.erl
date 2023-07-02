@@ -15,6 +15,7 @@
 %% Cowboy supports versions 7 through 17 of the Websocket drafts.
 %% It also supports RFC6455, the proposed standard for Websocket.
 -module(cowboy_websocket).
+-vsn("2.10.1").
 -behaviour(cowboy_sub_protocol).
 
 -export([is_upgrade_request/1]).

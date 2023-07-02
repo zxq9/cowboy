@@ -13,6 +13,7 @@
 %% OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 -module(cowboy_http2).
+-vsn("2.10.1").
 
 -export([init/6]).
 -export([init/10]).
